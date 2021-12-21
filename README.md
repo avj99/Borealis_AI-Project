@@ -25,12 +25,9 @@ accuracy. The last model we used was GoogLeNet. We chose this model because of i
 layers deep network, specifically designed for classification and object detection. This model
 also won a Visual Recognition Competition in 2014, so we thought it would be interesting to
 test this model with our dataset. GoogLeNet surpassed both previous models and had the
-highest accuracy of approximately 14.85% with 11 epochs.
-Lastly, we played around with different hyperparameters and data augmentation to
+highest accuracy of approximately 14.85% with 11 epochs. Lastly, we played around with different hyperparameters and data augmentation to
 see if the accuracy of our model could be improved. We first modified the learning rates of
-all three of the models to try and find the most optimal for each. Learning rates are a
-
-hyper-parameter that affects how fast the algorithm learns, and whether or not the cost
+all three of the models to try and find the most optimal for each. Learning rates are a hyper-parameter that affects how fast the algorithm learns, and whether or not the cost
 function is minimized. Testing different learning rates turned out to be very useful and we
 were able to achieve ~14% accuracy on GoogLeNet. The next hyperparameter we modified
 was the number of epochs, or in other words, the number of times we iterate through all of
